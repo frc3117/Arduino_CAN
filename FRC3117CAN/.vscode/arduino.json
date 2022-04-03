@@ -1,0 +1,5 @@
+{
+    "sketch": "exemples\\FRC3117CAN.ino",
+    "configuration": "cpu=atmega2560",
+    "board": "arduino:avr:mega"
+}

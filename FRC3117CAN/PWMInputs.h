@@ -9,15 +9,15 @@ namespace frc
   {
     int32_t num;
     uint8_t data[4];
-  } AnalogInputsPacket;
+  } PWMInputsPacket;
   
-  class AnalogInputs
+  class PWMInputs
   {
     public:
     void addInput(int id);
     void clearInputs();
 
-    AnalogInputsPacket generatePacket(int id);
+    PWMInputsPacket generatePacket(int id);
 
     int inputCount;
 

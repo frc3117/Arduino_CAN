@@ -15,7 +15,7 @@ void frc::AnalogInputs::clearInputs()
 
 frc::AnalogInputsPacket frc::AnalogInputs::generatePacket(int id)
 {
- frc::AnalogInputsPacket packet{analogRead(_inputs.get(id))};
-
+  frc::AnalogInputsPacket packet{analogRead(*_inputs.get(id))};
+  
   return packet;
 }
